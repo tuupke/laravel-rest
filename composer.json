@@ -1,0 +1,20 @@
+{
+    "name": "tuuke/laravel-rest",
+    "description": "Fully fledged REST system integrated with Laravel and Lumen.",
+    "keywords": ["laravel", "eloquent", "rest", "lumen"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mart Pluijmaekers",
+            "email": "mart@tuupke.nl"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tuupke\\REST\\": "src/"
+        }
+    }
+}
